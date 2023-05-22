@@ -7,9 +7,11 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 taylor = Artist.create! (
-    email: "taylor.swift@example.com"
-    first_name: "Taylor"
-    last_name: "Swift"
+  email: "taylor.swift@example.com",
+  first_name: "Taylor",
+  last_name: "Swift"
+
+    
 )
 
 Item.create!(
